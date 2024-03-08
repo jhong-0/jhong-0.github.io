@@ -6,9 +6,11 @@
   </head>
   <body>
     <h1>Jonathan Hong</h1>
-    <p>Hi, I'm a second-year undergraduate at the University of Pennsylvania, studying Computer and Information Science in the School of Engineering and Applied Sciences.</p>
-    <p>I'm currently interested in computer graphics and systems engineering/programming. Recently, I've been working a lot with C/C++ and OpenGL. </p>
-    <p>In my free time, I like to write, think, and go on long walks.</p>
+    <p>
+      Hi, I'm a second-year undergraduate at the University of Pennsylvania, studying Computer and Information Science in the School of Engineering and Applied Sciences.
+      I'm currently interested in computer graphics and systems engineering/programming. Recently, I've been working a lot with C/C++ and OpenGL.
+      In my free time, I like to write, play oboe, watch tennis, and go on long walks.
+    </p>
     <hr>
     <h1>Projects</h1>
     <h2>Miniature Minecraft Clone</h2>
@@ -16,7 +18,6 @@
       <iframe width="942" height="530" src="https://www.youtube.com/embed/rSxnv_DsiYM" title="CIS 4600 Mini Minecraft Team SEGFAULT" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
       <br>
       <p>A group project inspired by the likes of Minecraft, using the OpenGL pipeline, and programmed primarily in C++ and GLSL.</p>
-      <br>
       <p><b>Features Responsible:</b></p>
       <ul style="list-style-type:square">
         <li>Player physics, on land and in water</li>
@@ -28,7 +29,48 @@
         <li>Togglable still-scene water reflections using reflection mapping</li>
         <li>Underwater post-process shaders using FrameBuffers</li>
       </ul>
+
+    <hr>
     <h2>Monte-Carlo Path Tracer</h2>
-    <h2>Multiplayer and Singleplayer Chess</h2>
+      <h3><i>January 2024 - Present</i></h3>
+
+      <p>
+        A project built upon approximating the Light Transport Equation in order to render scenes using realistic light physics.
+        Scenes are rendered on the GPU using OpenGL/GLSL. GUI and GL window created using C++ and Qt.
+      </p>
+      <p><b>Features Responsible:</b></p>
+      <ul style="list-style-type:square">
+        <li>Naïve Lighting Estimation</li>
+        <li>Direct Lighting Estimation</li>
+        <li>Multiple Importance Sampling (MIS)</li>
+      </ul>
+
+    <hr>
+    <h2>Multiplayer and Singleplayer Chess (against Computer)</h2>
+      <h3><i>November 2022 - August 2023</i></h3>
+
+      <p>
+        A classic game of chess, written in Java, with Swing and AWT libraries. Two gameplay modes supported.
+        Either play locally with a friend (multiplayer), or play singleplayer against a beginner chess bot.
+        Autonomous decision making implemented using Minimax algorithm. Also researched Monte Carlo Tree Search
+        and Alpha-Beta pruning for greater max-depth board state searching.
+      </p>
+      <p><b>Features:</b></p>
+      <ul style="list-style-type:square">
+        <li>Minimax algorithm for optimizing board state</li>
+        <li>
+          Experimented with various board state evaluation functions to see which heuristics
+          influenced game outcome the most
+        </li>
+        <li>Game logic properly implemented (checkmate, stalemate, en passant, castling, etc.)</li>
+        <li>Object-oriented design of all chess pieces and their various rules/functions in the game</li>
+        <li>Possible move highlighting when piece on board is selected</li>
+        <li>Java Swing and AWT libraries used for the GUI and graphics</li>
+        <li>Created pixel art sprites to represent the chess pieces</li>
+      </ul>
+
+    <hr>
+    <h2>Double Pendulum Simulation and Presentation using Lagrangian Mechanics</h2>
+    
   </body>
 </html>
